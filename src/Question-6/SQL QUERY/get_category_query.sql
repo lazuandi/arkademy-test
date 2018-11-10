@@ -1,0 +1,1 @@
+SELECT categories.id, categories.name, COUNT(products.category_id) AS Jumlah_product FROM product_categories as categories LEFT JOIN products ON categories.id = products.category_id GROUP BY categories.name ORDER BY categories.id

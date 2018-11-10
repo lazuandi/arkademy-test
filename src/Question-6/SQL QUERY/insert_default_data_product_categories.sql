@@ -1,0 +1,1 @@
+INSERT INTO `product_categories`(`id`, `name`, `created_date`) VALUES (1,'Peralatan Mandi', NOW()),(2,'Minuman Kemasan', NOW()),(3,'Produk Susu', NOW())

@@ -1,0 +1,19 @@
+{
+  "name": "arkademy",
+  "version": "1.0.0",
+  "description": "My submission for arkademy grand bootcamp",
+  "main": "index.js",
+  "repository": "https://github.com/lazuandi/arkademy-test",
+  "author": "lazuandi <lazuandi.anwar@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.9.0",
+    "flow-bin": "^0.86.0",
+    "prettier": "1.15.1"
+  }
+}
